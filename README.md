@@ -1,6 +1,16 @@
 # Hackathon-Quiz-Geografia
 Quiz de Geografia em React com 15 perguntas, curiosidades da Wikipédia e ranking salvo no navegador.
 
-O projeto consiste em um quiz de Geografia em React, com 15 questões distribuídas em três níveis de dificuldade. Ele combina diversão e aprendizado, apresentando curiosidades da Wikipédia em cada resposta. O jogador só avança com acertos consecutivos, possui ranking armazenado no navegador e interface adaptável. Utiliza React 18, JavaScript ES6+, HTML5, CSS3 e a API da Wikipédia. As perguntas do quiz são armazenadas de maneira flexível no MongoDB. Resultado: uma experiência de aprendizado simples e envolvente.
+O projeto consiste em um quiz de Geografia em React com 15 questões, distribuídas em três níveis: Novato, Experiente e Mestre. Cada questão apresenta quatro opções de resposta, e ao respondê-las, o jogador recebe um retorno e uma informação interessante da Wikipédia. O progresso só é possível com acertos seguidos, e o quiz termina ao errar.
 
-Para usar o programa, é só abrir o arquivo index.html em um navegador atualizado. O usuário começa o quiz após inserir seu nome. Na sequência, responde a questões de Geografia com quatro opções possíveis, recebendo de imediato a confirmação de acerto ou erro. A cada resposta correta, uma curiosidade da Wikipédia é apresentada, contribuindo para um aprendizado mais enriquecedor. O jogador só consegue progredir ao fazer acertos consecutivos e, ao término da partida, sua pontuação é registrada automaticamente no ranking, que é salvo no navegador. Assim, os resultados não se perdem quando o sistema é fechado e reaberto. O funcionamento é simples, intuitivo e responsivo. É possível testá-lo respondendo às perguntas, verificando o feedback instantâneo e conferindo a permanência do ranking após reiniciar a aplicação.
+O ranking é armazenado em um banco de dados MySQL, onde são registrados o nome do jogador e a pontuação. A interface, desenvolvida com React 18, Hooks, HTML5 e CSS3, é responsiva e interativa. Para jogar, é só abrir o arquivo index.html, inserir o nome, responder às perguntas e acompanhar o ranking atualizado tanto no navegador quanto no banco de dados. Trata-se de um método simples e agradável para aprender Geografia.
+
+Instruções para utilizar o quiz de Geografia:
+  Em um navegador moderno, abra o arquivo index.html.
+  Insira seu nome no espaço fornecido.
+  Para começar, clique em "Iniciar Quiz".
+  Responda às perguntas, verificando o feedback imediato e a curiosidade da Wikipédia para cada resposta.
+  Continue acertando para progredir pelos níveis Novato, Experiente e Mestre.
+  O quiz chega ao fim quando você erra ou completa todas as fases, e sua pontuação é registrada automaticamente no MySQL.
+  O ranking atualizado é exibido no navegador, apresentando os melhores desempenhos de todos os jogadores.
+Esse fluxo possibilita uma jogabilidade simples e o acompanhamento do desempenho em tempo real.
